@@ -1,0 +1,44 @@
+{
+  "name": "insertisodate",
+  "displayName": "insertisodate",
+  "description": "Insert ISO date",
+  "version": "0.0.1",
+  "publisher": "ulricqin",
+  "author": "ulricqin",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sretalk/insertisodate"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "insertisodate.insert",
+      "title": "Insert ISO Date"
+    }],
+    "keybindings": [{
+      "command": "insertisodate.insert",
+      "key": "ctrl+shift+i"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.98.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.23.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
