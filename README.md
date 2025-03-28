@@ -8,10 +8,8 @@ This extension will help you to add the date at the cursor position anytime, any
 
 ## How to use
 
-There are two ways to use this extension:
-
-1. Open Command Palette and search for "Insert ISO Date".
-2. Use the shortcut `ctrl+shift+i`
+1. Open Command Palette
+2. Search "Insert ISO Date"
 
 ## Licence 
 Licensed under the [MIT](https://github.com/sretalk/insertisodate/blob/master/LICENSE) License.
