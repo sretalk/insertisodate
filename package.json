@@ -22,10 +22,6 @@
     "commands": [{
       "command": "insertisodate.insert",
       "title": "Insert ISO Date"
-    }],
-    "keybindings": [{
-      "command": "insertisodate.insert",
-      "key": "ctrl+shift+i"
     }]
   },
   "scripts": {
