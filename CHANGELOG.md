@@ -9,3 +9,7 @@ All notable changes to the "insertisodate" extension will be documented in this 
 ## 0.0.2
 
 - Update usage in README.md
+
+## 0.0.3
+
+- Refactor format.
