@@ -4,7 +4,7 @@ This is Visual Studio Code Extension to insert iso date.
 
 ## Features
 
-This extension will help you to add the date at the cursor position anytime, anywhere you want. The date is displayed in ISO format `YYYY-MM-DDTHH:MM:SSZ` (e.g. `2023-10-01T12:00:00Z`).
+This extension will help you to add the date at the cursor position anytime, anywhere you want. The date is displayed in ISO format (e.g. `2023-10-01T12:00:00.183+08:00`).
 
 ## How to use
 
